@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/dictio/static/css/main.9621c20c.chunk.css",
+    "main.js": "/dictio/static/js/main.2c4b3783.chunk.js",
+    "main.js.map": "/dictio/static/js/main.2c4b3783.chunk.js.map",
+    "runtime-main.js": "/dictio/static/js/runtime-main.99684eb9.js",
+    "runtime-main.js.map": "/dictio/static/js/runtime-main.99684eb9.js.map",
+    "static/css/2.5a510433.chunk.css": "/dictio/static/css/2.5a510433.chunk.css",
+    "static/js/2.a69c7804.chunk.js": "/dictio/static/js/2.a69c7804.chunk.js",
+    "static/js/2.a69c7804.chunk.js.map": "/dictio/static/js/2.a69c7804.chunk.js.map",
+    "index.html": "/dictio/index.html",
+    "precache-manifest.3c733b4cb217cc139f982cfdfd83b50c.js": "/dictio/precache-manifest.3c733b4cb217cc139f982cfdfd83b50c.js",
+    "service-worker.js": "/dictio/service-worker.js",
+    "static/css/2.5a510433.chunk.css.map": "/dictio/static/css/2.5a510433.chunk.css.map",
+    "static/css/main.9621c20c.chunk.css.map": "/dictio/static/css/main.9621c20c.chunk.css.map",
+    "static/js/2.a69c7804.chunk.js.LICENSE.txt": "/dictio/static/js/2.a69c7804.chunk.js.LICENSE.txt",
+    "static/media/Loader.svg": "/dictio/static/media/Loader.61ceae8c.svg",
+    "static/media/book.svg": "/dictio/static/media/book.8ac9c079.svg",
+    "static/media/empty.svg": "/dictio/static/media/empty.cfb49f55.svg",
+    "static/media/logo.png": "/dictio/static/media/logo.3ca6f1eb.png",
+    "static/media/search.svg": "/dictio/static/media/search.e7cc1222.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.99684eb9.js",
+    "static/css/2.5a510433.chunk.css",
+    "static/js/2.a69c7804.chunk.js",
+    "static/css/main.9621c20c.chunk.css",
+    "static/js/main.2c4b3783.chunk.js"
+  ]
+}
