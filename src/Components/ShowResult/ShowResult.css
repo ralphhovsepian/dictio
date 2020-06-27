@@ -1,0 +1,14 @@
+.ShowResult {
+  background-color: whitesmoke;
+  margin: 5% 0;
+  padding: 7%;
+  border-radius: 4px;
+}
+
+.ShowResult .error {
+  background-color: #be2d2d !important;
+  color: #fff !important;
+  border-radius: 4px;
+  padding: 10px;
+}
+/*# sourceMappingURL=ShowResult.css.map */

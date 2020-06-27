@@ -1,0 +1,15 @@
+.Footer {
+  margin-top: 10%;
+  bottom: 0;
+  width: 100%;
+}
+
+.Footer footer {
+  background-color: #5375e2;
+}
+
+.Footer .grey-text,
+.Footer .white-text {
+  margin: 0 10px;
+}
+/*# sourceMappingURL=Footer.css.map */

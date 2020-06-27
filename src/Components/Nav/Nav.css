@@ -1,0 +1,49 @@
+.nav-wrapper #menu,
+.sidenav #menu {
+  color: #5375e2;
+}
+
+.nav-wrapper #right,
+.sidenav #right {
+  color: #fff;
+  background-color: #5375e2;
+  font-weight: bold;
+}
+
+.nav-wrapper #right:hover,
+.sidenav #right:hover {
+  background-color: #1b1b1b;
+}
+
+.nav-wrapper .logo,
+.sidenav .logo {
+  display: inline-block;
+  height: 100%;
+}
+
+.nav-wrapper .logo > img,
+.sidenav .logo > img {
+  position: absolute;
+  top: 50%;
+  width: 20%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.brand-logo {
+  margin: 0 10px;
+}
+
+.sidenav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=Nav.css.map */

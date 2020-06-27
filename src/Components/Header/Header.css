@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
+.Header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 10%;
+}
+
+.Header div {
+  margin: 0 5%;
+}
+
+.Header h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #5375e2;
+  width: 100%;
+}
+
+.Header img {
+  width: 50%;
+}
+
+.Header .waves-effect {
+  background-color: #5375e2;
+  border-radius: 50px;
+  border-bottom: 0;
+  border-top: 0;
+  font-weight: bold;
+}
+
+.Header .waves-effect:hover {
+  background-color: #1b1b1b;
+}
+/*# sourceMappingURL=Header.css.map */

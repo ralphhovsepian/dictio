@@ -1,0 +1,13 @@
+.ShowResult {
+  background-color: whitesmoke;
+  margin: 5% 0;
+  padding: 7%;
+  border-radius: 4px;
+
+  .error {
+    background-color: rgb(190, 45, 45) !important;
+    color: #fff !important;
+    border-radius: 4px;
+    padding: 10px;
+  }
+}
