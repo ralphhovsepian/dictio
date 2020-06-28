@@ -47,7 +47,7 @@ export default function Saved() {
         return save[savedVal] == '' ? (
           ''
         ) : (
-          <div className='row'>
+          <div className='row' key={key}>
             <div className='col s12 m6'>
               <div className='card'>
                 <div className='card-image'>

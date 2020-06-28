@@ -56,13 +56,11 @@ export default function Nav() {
     <div className='Nav'>
       <nav className='transparent z-depth-0'>
         <div className='nav-wrapper'>
-          <Link to='/dictio/'>
-            <a className='logo'>
-              <img src={logo} />
-            </a>
+          <Link to='/dictio/' className='logo'>
+            <img src={logo} />
           </Link>
-          <a href='#' data-target='mobile-demo' class='sidenav-trigger'>
-            <i class='material-icons' id='menu'>
+          <a href='#' data-target='mobile-demo' className='sidenav-trigger'>
+            <i className='material-icons' id='menu'>
               menu
             </i>
           </a>
@@ -83,10 +81,12 @@ export default function Nav() {
                 </li>
 
                 <li>
-                  <Link to='/dictio/Saved/'>
-                    <a className='waves-effect waves-light btn' id='right'>
-                      <i className='material-icons prefix'>bookmark</i>
-                    </a>
+                  <Link
+                    to='/dictio/Saved/'
+                    className='waves-effect waves-light btn'
+                    id='right'
+                  >
+                    <i className='material-icons prefix'>bookmark</i>
                   </Link>
                 </li>
 
@@ -145,10 +145,12 @@ export default function Nav() {
             </li>
 
             <li>
-              <Link to='/dictio/Saved/'>
-                <a className='waves-effect waves-light btn' id='right'>
-                  <i className='material-icons prefix'>bookmark</i>
-                </a>
+              <Link
+                to='/dictio/Saved/'
+                className='waves-effect waves-light btn'
+                id='right'
+              >
+                <i className='material-icons prefix'>bookmark</i>
               </Link>
             </li>
 
