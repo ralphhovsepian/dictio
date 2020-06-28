@@ -6,6 +6,7 @@ import M from 'materialize-css';
 import empty from '../Styling/empty.svg';
 
 export default function Saved() {
+  //states from context api
   const { users, wordResults, saved, Loader } = useContext(UserContext);
   const [user, setUser] = users;
   const [wordResult, setWordResult] = wordResults;
@@ -19,7 +20,6 @@ export default function Saved() {
       .get()
       .then(function (doc) {
         if (doc.exists) {
-          console.log('Document data:', doc.data());
           let documentData = doc.data();
 
           return setSave(documentData);
@@ -45,22 +45,22 @@ export default function Saved() {
       {Object.keys(save).length === 0 ? <img src={empty} /> : ''}
       {Object.keys(save).map((savedVal, key) => {
         return save[savedVal] == '' ? (
-          console.log('nooo')
+          ''
         ) : (
-          <div class='row'>
-            <div class='col s12 m6'>
-              <div class='card'>
-                <div class='card-image'>
+          <div className='row'>
+            <div className='col s12 m6'>
+              <div className='card'>
+                <div className='card-image'>
                   <h3 id='savedTitle'>{savedVal}</h3>
 
                   <a
                     onClick={() => handleDelete(savedVal)}
-                    class='btn-floating halfway-fab waves-effect waves-light red'
+                    className='btn-floating halfway-fab waves-effect waves-light red'
                   >
-                    <i class='material-icons'>remove</i>
+                    <i className='material-icons'>remove</i>
                   </a>
                 </div>
-                <div class='card-content'>
+                <div className='card-content'>
                   <p>{save[savedVal]}</p>
                 </div>
               </div>

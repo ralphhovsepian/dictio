@@ -5,6 +5,7 @@ import fire from '../firebase';
 import M from 'materialize-css';
 
 export default function ShowResult() {
+  //states from context api
   const { wordResults, users } = useContext(UserContext);
   const [wordResult, setWordResult] = wordResults;
   const [user, setUser] = users;
@@ -44,7 +45,7 @@ export default function ShowResult() {
         </div>
       ) : (
         <div>
-          <a href='#!' class='error'>
+          <a href='#!' className='error'>
             Not found
           </a>
         </div>

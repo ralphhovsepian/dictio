@@ -4,10 +4,13 @@ import fire from '../firebase';
 import './Nav.css';
 import M from 'materialize-css';
 import logo from '../Styling/logo.png';
-import Modal from '../Modal/Modal';
 import { UserContext } from '../UserContext';
 
+//Component
+import Modal from '../Modal/Modal';
+
 export default function Nav() {
+  //states from context api
   const { users, current, search, wordResults, Loader } = useContext(
     UserContext
   );
@@ -16,6 +19,7 @@ export default function Nav() {
   const [word, setWord] = search;
   const [wordResult, setWordResult] = wordResults;
   const [loader, setLoader] = Loader;
+
   const logout = () => {
     fire.auth().signOut();
     setWordResult('');
@@ -124,7 +128,7 @@ export default function Nav() {
         </div>
       </nav>
       <Modal />
-      <ul class='sidenav' id='mobile-demo'>
+      <ul className='sidenav' id='mobile-demo'>
         {user ? (
           <React.Fragment>
             <li>

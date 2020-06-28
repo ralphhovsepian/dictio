@@ -2,10 +2,13 @@ import React, { useContext } from 'react';
 import './Modal.css';
 import M from 'materialize-css';
 import { UserContext } from '../UserContext';
-import Loader from '../Loader/Loader';
 import fire from '../firebase';
 
+//Component
+import Loader from '../Loader/Loader';
+
 export default function Modal() {
+  //states from context api
   const { users, current, Loader } = useContext(UserContext);
   const [user, setUser] = users;
   const [currentUser, setCurrent] = current;
@@ -29,6 +32,7 @@ export default function Modal() {
       .catch((error) => {
         console.log(error);
         setLoader(false);
+        M.toast({ html: 'Login error. Try again.' });
       });
   };
 
@@ -50,6 +54,8 @@ export default function Modal() {
 
       .catch((error) => {
         console.log(error);
+        setLoader(false);
+        M.toast({ html: 'Sign up error!' });
       });
   };
 

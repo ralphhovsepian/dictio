@@ -1,9 +1,10 @@
 import React, { useContext } from 'react';
 import './Header.css';
 import book from '../Styling/book.svg';
-import Modal from '../Modal/Modal';
-
 import { UserContext } from '../UserContext';
+
+//Component
+import Modal from '../Modal/Modal';
 
 export default function Header() {
   const { users, current } = useContext(UserContext);
@@ -24,7 +25,7 @@ export default function Header() {
           className='waves-effect waves-light btn modal-trigger'
           href='#login'
         >
-          Get started<i class='material-icons left'>login</i>
+          Get started<i className='material-icons left'>login</i>
         </a>
       </div>
       <img src={book} alt='book worm' />

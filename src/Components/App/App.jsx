@@ -6,17 +6,20 @@ import {
   Switch,
   Redirect,
 } from 'react-router-dom';
+
+import { UserContext } from '../UserContext';
+import fire from '../firebase';
+
+//Components
 import Nav from '../Nav/Nav';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import Saved from '../Saved/Saved';
 import Loading from '../Loader/Loader';
 import Home from '../Home/Home';
-import { UserContext } from '../UserContext';
-
-import fire from '../firebase';
 
 function App() {
+  //states from context api
   const { users, current, Loader } = useContext(UserContext);
   const [user, setUser] = users;
   const [currentUser, setCurrent] = current;
