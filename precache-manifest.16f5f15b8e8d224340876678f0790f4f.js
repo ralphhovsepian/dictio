@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6e2dcd1685cb131224db79c893fd012e",
+    "revision": "7a28956c7e679d7cb6058e5f5ea3fdcf",
     "url": "/dictio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dictio/static/css/2.5a510433.chunk.css"
   },
   {
-    "revision": "662e90a3a78680c809e2",
+    "revision": "61a476e640f61adc0802",
     "url": "/dictio/static/css/main.a4ed349d.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dictio/static/js/2.541e9273.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "662e90a3a78680c809e2",
-    "url": "/dictio/static/js/main.f2bcb0b2.chunk.js"
+    "revision": "61a476e640f61adc0802",
+    "url": "/dictio/static/js/main.724b0edc.chunk.js"
   },
   {
     "revision": "7e9b500bc07fdc622e33",
